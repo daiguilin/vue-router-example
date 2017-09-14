@@ -2,8 +2,7 @@ import Vue from 'vue'
 
 import App from './App'
 import router from '@/router'
-import '@/assets/css/app.css'
-
+require('!style-loader!css-loader!./assets/css/app.css');
 
 
 //实例一个Vue对象
